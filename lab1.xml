@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="lab1.xsl" type="text/xsl"?>
+<lab1 xmlns="https://www.lab1.com/menu"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.lab1.com/menu menu.xsd">
+    <servingTime name="lunch">
+        <category>meals</category>
+        <subCategory>
+            <Item>
+                <description>Nachos</description>
+                <price>19</price>
+            </Item>
+            <Item>
+                <description>Mac n Cheese</description>
+                <price>15</price>
+            </Item>
+        </subCategory>
+    </servingTime>
+
+    <servingTime name="dinner">
+        <category>meals</category>
+        <subCategory>
+            <Item>
+                <description>Steak Dinner</description>
+                <price>35</price>
+            </Item>
+            <Item>
+                <description>Vegetarian Dish</description>
+                <price>20</price>
+            </Item>
+        </subCategory>
+    </servingTime>
+
+    <servingTime name="drinks">
+        <category>drinks</category>
+        <subCategory>
+            <Item>
+                <description>Rum n Coke</description>
+                <price>6</price>
+            </Item>
+            <Item>
+                <description>Beer</description>
+                <price>7</price>
+            </Item>
+        </subCategory>
+    </servingTime>
+    <servingTime name="dessert">
+        <category>dessert</category>
+        <subCategory>
+            <Item>
+                <description>Chocolate Pie</description>
+                <price>8</price>
+            </Item>
+            <Item>
+                <description>Cake</description>
+                <price>4</price>
+            </Item>
+        </subCategory>
+    </servingTime>
+</lab1>
